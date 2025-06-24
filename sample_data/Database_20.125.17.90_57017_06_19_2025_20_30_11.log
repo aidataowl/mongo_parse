@@ -1,0 +1,959 @@
+
+==============================
+** DATABASE: admin
+==============================
+
+** START OF SECTION 1 DATABASE: admin : Clustered Collections with expireAfterSeconds
+
+** END OF SECTION 1 DATABASE: admin : Clustered Collections with expireAfterSeconds
+
+** START OF SECTION 2 DATABASE: admin : Capped & Time-Series Collections
+
+** END OF SECTION 2 DATABASE: admin : Capped & Time-Series Collections
+
+** START OF SECTION 3 DATABASE: admin : Documents with $-prefixed Fields
+
+** END OF SECTION 3 DATABASE: admin : Documents with $-prefixed Fields
+
+** START OF SECTION 4 DATABASE: admin : Queryable Encryption Enabled Collections
+
+** END OF SECTION 4 DATABASE: admin : Queryable Encryption Enabled Collections
+
+** START OF SECTION 5 DATABASE: admin : Mixed Unique and Non-Unique Indexes
+
+** END OF SECTION 5 DATABASE: admin : Mixed Unique and Non-Unique Indexes
+
+** START OF SECTION 6 DATABASE: admin : Empty Timestamp Documents
+EMPTY TIMESTAMP ** Collection: system.keys, Docs: 3
+EMPTY TIMESTAMP ** Collection: system.users, Docs: 23
+EMPTY TIMESTAMP ** Collection: system.roles, Docs: 7
+EMPTY TIMESTAMP ** Collection: system.version, Docs: 2
+
+** END OF SECTION 6 DATABASE: admin : Empty Timestamp Documents
+
+==============================
+** DATABASE: config
+==============================
+
+** START OF SECTION 1 DATABASE: config : Clustered Collections with expireAfterSeconds
+
+** END OF SECTION 1 DATABASE: config : Clustered Collections with expireAfterSeconds
+
+** START OF SECTION 2 DATABASE: config : Capped & Time-Series Collections
+
+** END OF SECTION 2 DATABASE: config : Capped & Time-Series Collections
+
+** START OF SECTION 3 DATABASE: config : Documents with $-prefixed Fields
+
+** END OF SECTION 3 DATABASE: config : Documents with $-prefixed Fields
+
+** START OF SECTION 4 DATABASE: config : Queryable Encryption Enabled Collections
+
+** END OF SECTION 4 DATABASE: config : Queryable Encryption Enabled Collections
+
+** START OF SECTION 5 DATABASE: config : Mixed Unique and Non-Unique Indexes
+
+** END OF SECTION 5 DATABASE: config : Mixed Unique and Non-Unique Indexes
+
+** START OF SECTION 6 DATABASE: config : Empty Timestamp Documents
+
+** END OF SECTION 6 DATABASE: config : Empty Timestamp Documents
+
+==============================
+** DATABASE: local
+==============================
+
+** START OF SECTION 1 DATABASE: local : Clustered Collections with expireAfterSeconds
+
+** END OF SECTION 1 DATABASE: local : Clustered Collections with expireAfterSeconds
+
+** START OF SECTION 2 DATABASE: local : Capped & Time-Series Collections
+CAPPED ** Collection: oplog.rs
+CAPPED ** Collection: startup_log
+
+** END OF SECTION 2 DATABASE: local : Capped & Time-Series Collections
+
+** START OF SECTION 3 DATABASE: local : Documents with $-prefixed Fields
+$-FIELD ** Collection: system.views, _id: local.system.tenantMigration.oplogView
+
+** END OF SECTION 3 DATABASE: local : Documents with $-prefixed Fields
+
+** START OF SECTION 4 DATABASE: local : Queryable Encryption Enabled Collections
+
+** END OF SECTION 4 DATABASE: local : Queryable Encryption Enabled Collections
+
+** START OF SECTION 5 DATABASE: local : Mixed Unique and Non-Unique Indexes
+
+** END OF SECTION 5 DATABASE: local : Mixed Unique and Non-Unique Indexes
+
+** START OF SECTION 6 DATABASE: local : Empty Timestamp Documents
+EMPTY TIMESTAMP ** Collection: replset.minvalid, Docs: 1
+EMPTY TIMESTAMP ** Collection: replset.initialSyncId, Docs: 1
+EMPTY TIMESTAMP ** Collection: oplog.rs, Docs: 1079676
+EMPTY TIMESTAMP ** Collection: system.views, Docs: 1
+EMPTY TIMESTAMP ** Collection: replset.oplogTruncateAfterPoint, Docs: 1
+EMPTY TIMESTAMP ** Collection: system.replset, Docs: 1
+EMPTY TIMESTAMP ** Collection: replset.election, Docs: 1
+EMPTY TIMESTAMP ** Collection: system.rollback.id, Docs: 1
+EMPTY TIMESTAMP ** Collection: startup_log, Docs: 41
+
+** END OF SECTION 6 DATABASE: local : Empty Timestamp Documents
+
+==============================
+** DATABASE: mysync123
+==============================
+
+** START OF SECTION 1 DATABASE: mysync123 : Clustered Collections with expireAfterSeconds
+
+** END OF SECTION 1 DATABASE: mysync123 : Clustered Collections with expireAfterSeconds
+
+** START OF SECTION 2 DATABASE: mysync123 : Capped & Time-Series Collections
+
+** END OF SECTION 2 DATABASE: mysync123 : Capped & Time-Series Collections
+
+** START OF SECTION 3 DATABASE: mysync123 : Documents with $-prefixed Fields
+
+** END OF SECTION 3 DATABASE: mysync123 : Documents with $-prefixed Fields
+
+** START OF SECTION 4 DATABASE: mysync123 : Queryable Encryption Enabled Collections
+
+** END OF SECTION 4 DATABASE: mysync123 : Queryable Encryption Enabled Collections
+
+** START OF SECTION 5 DATABASE: mysync123 : Mixed Unique and Non-Unique Indexes
+
+** END OF SECTION 5 DATABASE: mysync123 : Mixed Unique and Non-Unique Indexes
+
+** START OF SECTION 6 DATABASE: mysync123 : Empty Timestamp Documents
+EMPTY TIMESTAMP ** Collection: bigdata, Docs: 4531000
+
+** END OF SECTION 6 DATABASE: mysync123 : Empty Timestamp Documents
+
+** START OF SECTION 7 DATABASE: mysync123 : User Information
+
+Users in mysync123:
+{
+  users: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365028, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365028, i: 1 })
+}
+
+Custom Roles in mysync123:
+{
+  roles: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365028, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365028, i: 1 })
+}
+
+** END OF SECTION 7 DATABASE: mysync123 : User Information
+============================== END DB: mysync123 ==============================
+
+
+==============================
+** DATABASE: mysync456123
+==============================
+
+** START OF SECTION 1 DATABASE: mysync456123 : Clustered Collections with expireAfterSeconds
+
+** END OF SECTION 1 DATABASE: mysync456123 : Clustered Collections with expireAfterSeconds
+
+** START OF SECTION 2 DATABASE: mysync456123 : Capped & Time-Series Collections
+
+** END OF SECTION 2 DATABASE: mysync456123 : Capped & Time-Series Collections
+
+** START OF SECTION 3 DATABASE: mysync456123 : Documents with $-prefixed Fields
+
+** END OF SECTION 3 DATABASE: mysync456123 : Documents with $-prefixed Fields
+
+** START OF SECTION 4 DATABASE: mysync456123 : Queryable Encryption Enabled Collections
+
+** END OF SECTION 4 DATABASE: mysync456123 : Queryable Encryption Enabled Collections
+
+** START OF SECTION 5 DATABASE: mysync456123 : Mixed Unique and Non-Unique Indexes
+
+** END OF SECTION 5 DATABASE: mysync456123 : Mixed Unique and Non-Unique Indexes
+
+** START OF SECTION 6 DATABASE: mysync456123 : Empty Timestamp Documents
+EMPTY TIMESTAMP ** Collection: mydata, Docs: 1886000
+
+** END OF SECTION 6 DATABASE: mysync456123 : Empty Timestamp Documents
+
+** START OF SECTION 7 DATABASE: mysync456123 : User Information
+
+Users in mysync456123:
+{
+  users: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365038, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365038, i: 1 })
+}
+
+Custom Roles in mysync456123:
+{
+  roles: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365038, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365038, i: 1 })
+}
+
+** END OF SECTION 7 DATABASE: mysync456123 : User Information
+============================== END DB: mysync456123 ==============================
+
+
+==============================
+** DATABASE: mysyncyou456123
+==============================
+
+** START OF SECTION 1 DATABASE: mysyncyou456123 : Clustered Collections with expireAfterSeconds
+
+** END OF SECTION 1 DATABASE: mysyncyou456123 : Clustered Collections with expireAfterSeconds
+
+** START OF SECTION 2 DATABASE: mysyncyou456123 : Capped & Time-Series Collections
+
+** END OF SECTION 2 DATABASE: mysyncyou456123 : Capped & Time-Series Collections
+
+** START OF SECTION 3 DATABASE: mysyncyou456123 : Documents with $-prefixed Fields
+
+** END OF SECTION 3 DATABASE: mysyncyou456123 : Documents with $-prefixed Fields
+
+** START OF SECTION 4 DATABASE: mysyncyou456123 : Queryable Encryption Enabled Collections
+
+** END OF SECTION 4 DATABASE: mysyncyou456123 : Queryable Encryption Enabled Collections
+
+** START OF SECTION 5 DATABASE: mysyncyou456123 : Mixed Unique and Non-Unique Indexes
+
+** END OF SECTION 5 DATABASE: mysyncyou456123 : Mixed Unique and Non-Unique Indexes
+
+** START OF SECTION 6 DATABASE: mysyncyou456123 : Empty Timestamp Documents
+EMPTY TIMESTAMP ** Collection: mydata, Docs: 5044000
+
+** END OF SECTION 6 DATABASE: mysyncyou456123 : Empty Timestamp Documents
+
+** START OF SECTION 7 DATABASE: mysyncyou456123 : User Information
+
+Users in mysyncyou456123:
+{
+  users: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365038, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365038, i: 1 })
+}
+
+Custom Roles in mysyncyou456123:
+{
+  roles: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365038, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365038, i: 1 })
+}
+
+** END OF SECTION 7 DATABASE: mysyncyou456123 : User Information
+============================== END DB: mysyncyou456123 ==============================
+
+
+==============================
+** DATABASE: new456123
+==============================
+
+** START OF SECTION 1 DATABASE: new456123 : Clustered Collections with expireAfterSeconds
+
+** END OF SECTION 1 DATABASE: new456123 : Clustered Collections with expireAfterSeconds
+
+** START OF SECTION 2 DATABASE: new456123 : Capped & Time-Series Collections
+
+** END OF SECTION 2 DATABASE: new456123 : Capped & Time-Series Collections
+
+** START OF SECTION 3 DATABASE: new456123 : Documents with $-prefixed Fields
+
+** END OF SECTION 3 DATABASE: new456123 : Documents with $-prefixed Fields
+
+** START OF SECTION 4 DATABASE: new456123 : Queryable Encryption Enabled Collections
+
+** END OF SECTION 4 DATABASE: new456123 : Queryable Encryption Enabled Collections
+
+** START OF SECTION 5 DATABASE: new456123 : Mixed Unique and Non-Unique Indexes
+
+** END OF SECTION 5 DATABASE: new456123 : Mixed Unique and Non-Unique Indexes
+
+** START OF SECTION 6 DATABASE: new456123 : Empty Timestamp Documents
+EMPTY TIMESTAMP ** Collection: mydata, Docs: 854000
+
+** END OF SECTION 6 DATABASE: new456123 : Empty Timestamp Documents
+
+** START OF SECTION 7 DATABASE: new456123 : User Information
+
+Users in new456123:
+{
+  users: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365048, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365048, i: 1 })
+}
+
+Custom Roles in new456123:
+{
+  roles: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365048, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365048, i: 1 })
+}
+
+** END OF SECTION 7 DATABASE: new456123 : User Information
+============================== END DB: new456123 ==============================
+
+
+==============================
+** DATABASE: test
+==============================
+
+** START OF SECTION 1 DATABASE: test : Clustered Collections with expireAfterSeconds
+CLUSTERED ** Collection: system.buckets.yourCollectionName, ExpireAfterSeconds: 3600
+
+** END OF SECTION 1 DATABASE: test : Clustered Collections with expireAfterSeconds
+
+** START OF SECTION 2 DATABASE: test : Capped & Time-Series Collections
+TIME-SERIES ** Collection: yourCollectionName, TimeField: timestamp
+TIME-SERIES ** Collection: system.buckets.yourCollectionName, TimeField: timestamp
+
+** END OF SECTION 2 DATABASE: test : Capped & Time-Series Collections
+
+** START OF SECTION 3 DATABASE: test : Documents with $-prefixed Fields
+$-FIELD ** Collection: system.views, _id: test.yourCollectionName
+
+** END OF SECTION 3 DATABASE: test : Documents with $-prefixed Fields
+
+** START OF SECTION 4 DATABASE: test : Queryable Encryption Enabled Collections
+
+** END OF SECTION 4 DATABASE: test : Queryable Encryption Enabled Collections
+
+** START OF SECTION 5 DATABASE: test : Mixed Unique and Non-Unique Indexes
+
+** END OF SECTION 5 DATABASE: test : Mixed Unique and Non-Unique Indexes
+
+** START OF SECTION 6 DATABASE: test : Empty Timestamp Documents
+EMPTY TIMESTAMP ** Collection: system.views, Docs: 1
+
+** END OF SECTION 6 DATABASE: test : Empty Timestamp Documents
+
+** START OF SECTION 7 DATABASE: test : User Information
+
+Users in test:
+{
+  users: [
+    {
+      _id: 'test.myUser',
+      userId: UUID('79bead37-1234-4b43-90ce-9c25ea535609'),
+      user: 'myUser',
+      db: 'test',
+      roles: [
+        {
+          role: 'readWrite',
+          db: 'myDatabase'
+        }
+      ],
+      mechanisms: [
+        'SCRAM-SHA-1',
+        'SCRAM-SHA-256'
+      ]
+    }
+  ],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365048, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365048, i: 1 })
+}
+
+Custom Roles in test:
+{
+  roles: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365048, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365048, i: 1 })
+}
+
+** END OF SECTION 7 DATABASE: test : User Information
+============================== END DB: test ==============================
+
+
+==============================
+** DATABASE: test1
+==============================
+
+** START OF SECTION 1 DATABASE: test1 : Clustered Collections with expireAfterSeconds
+
+** END OF SECTION 1 DATABASE: test1 : Clustered Collections with expireAfterSeconds
+
+** START OF SECTION 2 DATABASE: test1 : Capped & Time-Series Collections
+
+** END OF SECTION 2 DATABASE: test1 : Capped & Time-Series Collections
+
+** START OF SECTION 3 DATABASE: test1 : Documents with $-prefixed Fields
+
+** END OF SECTION 3 DATABASE: test1 : Documents with $-prefixed Fields
+
+** START OF SECTION 4 DATABASE: test1 : Queryable Encryption Enabled Collections
+
+** END OF SECTION 4 DATABASE: test1 : Queryable Encryption Enabled Collections
+
+** START OF SECTION 5 DATABASE: test1 : Mixed Unique and Non-Unique Indexes
+
+** END OF SECTION 5 DATABASE: test1 : Mixed Unique and Non-Unique Indexes
+
+** START OF SECTION 6 DATABASE: test1 : Empty Timestamp Documents
+EMPTY TIMESTAMP ** Collection: products, Docs: 3
+EMPTY TIMESTAMP ** Collection: users, Docs: 3
+EMPTY TIMESTAMP ** Collection: orders, Docs: 3
+
+** END OF SECTION 6 DATABASE: test1 : Empty Timestamp Documents
+
+** START OF SECTION 7 DATABASE: test1 : User Information
+
+Users in test1:
+{
+  users: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365048, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365048, i: 1 })
+}
+
+Custom Roles in test1:
+{
+  roles: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365048, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365048, i: 1 })
+}
+
+** END OF SECTION 7 DATABASE: test1 : User Information
+============================== END DB: test1 ==============================
+
+
+==============================
+** DATABASE: test2
+==============================
+
+** START OF SECTION 1 DATABASE: test2 : Clustered Collections with expireAfterSeconds
+
+** END OF SECTION 1 DATABASE: test2 : Clustered Collections with expireAfterSeconds
+
+** START OF SECTION 2 DATABASE: test2 : Capped & Time-Series Collections
+CAPPED ** Collection: eventStream
+
+** END OF SECTION 2 DATABASE: test2 : Capped & Time-Series Collections
+
+** START OF SECTION 3 DATABASE: test2 : Documents with $-prefixed Fields
+
+** END OF SECTION 3 DATABASE: test2 : Documents with $-prefixed Fields
+
+** START OF SECTION 4 DATABASE: test2 : Queryable Encryption Enabled Collections
+
+** END OF SECTION 4 DATABASE: test2 : Queryable Encryption Enabled Collections
+
+** START OF SECTION 5 DATABASE: test2 : Mixed Unique and Non-Unique Indexes
+
+** END OF SECTION 5 DATABASE: test2 : Mixed Unique and Non-Unique Indexes
+
+** START OF SECTION 6 DATABASE: test2 : Empty Timestamp Documents
+EMPTY TIMESTAMP ** Collection: orders, Docs: 3
+EMPTY TIMESTAMP ** Collection: products, Docs: 3
+EMPTY TIMESTAMP ** Collection: users, Docs: 3
+
+** END OF SECTION 6 DATABASE: test2 : Empty Timestamp Documents
+
+** START OF SECTION 7 DATABASE: test2 : User Information
+
+Users in test2:
+{
+  users: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365048, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365048, i: 1 })
+}
+
+Custom Roles in test2:
+{
+  roles: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365048, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365048, i: 1 })
+}
+
+** END OF SECTION 7 DATABASE: test2 : User Information
+============================== END DB: test2 ==============================
+
+
+==============================
+** DATABASE: test4
+==============================
+
+** START OF SECTION 1 DATABASE: test4 : Clustered Collections with expireAfterSeconds
+
+** END OF SECTION 1 DATABASE: test4 : Clustered Collections with expireAfterSeconds
+
+** START OF SECTION 2 DATABASE: test4 : Capped & Time-Series Collections
+
+** END OF SECTION 2 DATABASE: test4 : Capped & Time-Series Collections
+
+** START OF SECTION 3 DATABASE: test4 : Documents with $-prefixed Fields
+
+** END OF SECTION 3 DATABASE: test4 : Documents with $-prefixed Fields
+
+** START OF SECTION 4 DATABASE: test4 : Queryable Encryption Enabled Collections
+
+** END OF SECTION 4 DATABASE: test4 : Queryable Encryption Enabled Collections
+
+** START OF SECTION 5 DATABASE: test4 : Mixed Unique and Non-Unique Indexes
+MIXED INDEX ** Collection: mixedIndexTest, Field(s): {"email":1}
+[
+  {
+    name: 'email_unique',
+    unique: true
+  },
+  {
+    name: 'email_nonunique',
+    unique: false
+  }
+]
+
+** END OF SECTION 5 DATABASE: test4 : Mixed Unique and Non-Unique Indexes
+
+** START OF SECTION 6 DATABASE: test4 : Empty Timestamp Documents
+EMPTY TIMESTAMP ** Collection: orders, Docs: 3
+EMPTY TIMESTAMP ** Collection: users, Docs: 3
+EMPTY TIMESTAMP ** Collection: products, Docs: 3
+EMPTY TIMESTAMP ** Collection: mixedIndexTest, Docs: 2
+
+** END OF SECTION 6 DATABASE: test4 : Empty Timestamp Documents
+
+** START OF SECTION 7 DATABASE: test4 : User Information
+
+Users in test4:
+{
+  users: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365048, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365048, i: 1 })
+}
+
+Custom Roles in test4:
+{
+  roles: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365048, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365048, i: 1 })
+}
+
+** END OF SECTION 7 DATABASE: test4 : User Information
+============================== END DB: test4 ==============================
+
+
+==============================
+** DATABASE: test456123
+==============================
+
+** START OF SECTION 1 DATABASE: test456123 : Clustered Collections with expireAfterSeconds
+
+** END OF SECTION 1 DATABASE: test456123 : Clustered Collections with expireAfterSeconds
+
+** START OF SECTION 2 DATABASE: test456123 : Capped & Time-Series Collections
+
+** END OF SECTION 2 DATABASE: test456123 : Capped & Time-Series Collections
+
+** START OF SECTION 3 DATABASE: test456123 : Documents with $-prefixed Fields
+
+** END OF SECTION 3 DATABASE: test456123 : Documents with $-prefixed Fields
+
+** START OF SECTION 4 DATABASE: test456123 : Queryable Encryption Enabled Collections
+
+** END OF SECTION 4 DATABASE: test456123 : Queryable Encryption Enabled Collections
+
+** START OF SECTION 5 DATABASE: test456123 : Mixed Unique and Non-Unique Indexes
+
+** END OF SECTION 5 DATABASE: test456123 : Mixed Unique and Non-Unique Indexes
+
+** START OF SECTION 6 DATABASE: test456123 : Empty Timestamp Documents
+EMPTY TIMESTAMP ** Collection: mydata, Docs: 397000
+
+** END OF SECTION 6 DATABASE: test456123 : Empty Timestamp Documents
+
+** START OF SECTION 7 DATABASE: test456123 : User Information
+
+Users in test456123:
+{
+  users: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365048, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365048, i: 1 })
+}
+
+Custom Roles in test456123:
+{
+  roles: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365048, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365048, i: 1 })
+}
+
+** END OF SECTION 7 DATABASE: test456123 : User Information
+============================== END DB: test456123 ==============================
+
+
+==============================
+** DATABASE: test5
+==============================
+
+** START OF SECTION 1 DATABASE: test5 : Clustered Collections with expireAfterSeconds
+
+** END OF SECTION 1 DATABASE: test5 : Clustered Collections with expireAfterSeconds
+
+** START OF SECTION 2 DATABASE: test5 : Capped & Time-Series Collections
+
+** END OF SECTION 2 DATABASE: test5 : Capped & Time-Series Collections
+
+** START OF SECTION 3 DATABASE: test5 : Documents with $-prefixed Fields
+
+** END OF SECTION 3 DATABASE: test5 : Documents with $-prefixed Fields
+
+** START OF SECTION 4 DATABASE: test5 : Queryable Encryption Enabled Collections
+
+** END OF SECTION 4 DATABASE: test5 : Queryable Encryption Enabled Collections
+
+** START OF SECTION 5 DATABASE: test5 : Mixed Unique and Non-Unique Indexes
+
+** END OF SECTION 5 DATABASE: test5 : Mixed Unique and Non-Unique Indexes
+
+** START OF SECTION 6 DATABASE: test5 : Empty Timestamp Documents
+EMPTY TIMESTAMP ** Collection: users, Docs: 3
+EMPTY TIMESTAMP ** Collection: orders, Docs: 3
+EMPTY TIMESTAMP ** Collection: products, Docs: 3
+
+** END OF SECTION 6 DATABASE: test5 : Empty Timestamp Documents
+
+** START OF SECTION 7 DATABASE: test5 : User Information
+
+Users in test5:
+{
+  users: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365048, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365048, i: 1 })
+}
+
+Custom Roles in test5:
+{
+  roles: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365048, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365048, i: 1 })
+}
+
+** END OF SECTION 7 DATABASE: test5 : User Information
+============================== END DB: test5 ==============================
+
+
+==============================
+** DATABASE: test6
+==============================
+
+** START OF SECTION 1 DATABASE: test6 : Clustered Collections with expireAfterSeconds
+
+** END OF SECTION 1 DATABASE: test6 : Clustered Collections with expireAfterSeconds
+
+** START OF SECTION 2 DATABASE: test6 : Capped & Time-Series Collections
+
+** END OF SECTION 2 DATABASE: test6 : Capped & Time-Series Collections
+
+** START OF SECTION 3 DATABASE: test6 : Documents with $-prefixed Fields
+
+** END OF SECTION 3 DATABASE: test6 : Documents with $-prefixed Fields
+
+** START OF SECTION 4 DATABASE: test6 : Queryable Encryption Enabled Collections
+
+** END OF SECTION 4 DATABASE: test6 : Queryable Encryption Enabled Collections
+
+** START OF SECTION 5 DATABASE: test6 : Mixed Unique and Non-Unique Indexes
+
+** END OF SECTION 5 DATABASE: test6 : Mixed Unique and Non-Unique Indexes
+
+** START OF SECTION 6 DATABASE: test6 : Empty Timestamp Documents
+
+** END OF SECTION 6 DATABASE: test6 : Empty Timestamp Documents
+
+** START OF SECTION 7 DATABASE: test6 : User Information
+
+Users in test6:
+{
+  users: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365048, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365048, i: 1 })
+}
+
+Custom Roles in test6:
+{
+  roles: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365048, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365048, i: 1 })
+}
+
+** END OF SECTION 7 DATABASE: test6 : User Information
+============================== END DB: test6 ==============================
+
+
+==============================
+** DATABASE: test6;
+==============================
+
+** START OF SECTION 1 DATABASE: test6; : Clustered Collections with expireAfterSeconds
+
+** END OF SECTION 1 DATABASE: test6; : Clustered Collections with expireAfterSeconds
+
+** START OF SECTION 2 DATABASE: test6; : Capped & Time-Series Collections
+
+** END OF SECTION 2 DATABASE: test6; : Capped & Time-Series Collections
+
+** START OF SECTION 3 DATABASE: test6; : Documents with $-prefixed Fields
+
+** END OF SECTION 3 DATABASE: test6; : Documents with $-prefixed Fields
+
+** START OF SECTION 4 DATABASE: test6; : Queryable Encryption Enabled Collections
+
+** END OF SECTION 4 DATABASE: test6; : Queryable Encryption Enabled Collections
+
+** START OF SECTION 5 DATABASE: test6; : Mixed Unique and Non-Unique Indexes
+
+** END OF SECTION 5 DATABASE: test6; : Mixed Unique and Non-Unique Indexes
+
+** START OF SECTION 6 DATABASE: test6; : Empty Timestamp Documents
+
+** END OF SECTION 6 DATABASE: test6; : Empty Timestamp Documents
+
+** START OF SECTION 7 DATABASE: test6; : User Information
+
+Users in test6;:
+{
+  users: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365048, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365048, i: 1 })
+}
+
+Custom Roles in test6;:
+{
+  roles: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365048, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365048, i: 1 })
+}
+
+** END OF SECTION 7 DATABASE: test6; : User Information
+============================== END DB: test6; ==============================
+
+
+==============================
+** DATABASE: tt456123
+==============================
+
+** START OF SECTION 1 DATABASE: tt456123 : Clustered Collections with expireAfterSeconds
+
+** END OF SECTION 1 DATABASE: tt456123 : Clustered Collections with expireAfterSeconds
+
+** START OF SECTION 2 DATABASE: tt456123 : Capped & Time-Series Collections
+
+** END OF SECTION 2 DATABASE: tt456123 : Capped & Time-Series Collections
+
+** START OF SECTION 3 DATABASE: tt456123 : Documents with $-prefixed Fields
+
+** END OF SECTION 3 DATABASE: tt456123 : Documents with $-prefixed Fields
+
+** START OF SECTION 4 DATABASE: tt456123 : Queryable Encryption Enabled Collections
+
+** END OF SECTION 4 DATABASE: tt456123 : Queryable Encryption Enabled Collections
+
+** START OF SECTION 5 DATABASE: tt456123 : Mixed Unique and Non-Unique Indexes
+
+** END OF SECTION 5 DATABASE: tt456123 : Mixed Unique and Non-Unique Indexes
+
+** START OF SECTION 6 DATABASE: tt456123 : Empty Timestamp Documents
+EMPTY TIMESTAMP ** Collection: mydata, Docs: 7094000
+
+** END OF SECTION 6 DATABASE: tt456123 : Empty Timestamp Documents
+
+** START OF SECTION 7 DATABASE: tt456123 : User Information
+
+Users in tt456123:
+{
+  users: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365058, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365058, i: 1 })
+}
+
+Custom Roles in tt456123:
+{
+  roles: [],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1750365058, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1750365058, i: 1 })
+}
+
+** END OF SECTION 7 DATABASE: tt456123 : User Information
+============================== END DB: tt456123 ==============================
+
